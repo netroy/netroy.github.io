@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:rel="http://www.perceive.net/schemas/relationship/"
+      xmlns:admin="http://webns.net/mvcb/"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:wot="http://xmlns.com/wot/0.1/"
+  >
+  <foaf:PersonalProfileDocument rdf:about="">
+    <foaf:maker rdf:resource="#me"/>
+    <foaf:primaryTopic rdf:resource="#me"/>
+    <admin:generatorAgent rdf:resource="http://netroy.in/projects/foaf.ly"/>
+    <admin:errorReportsTo rdf:resource="mailto:noreply@netroy.in"/>
+  </foaf:PersonalProfileDocument>
+  
+  <foaf:Person rdf:ID="me">
+    <foaf:name>Aditya Yadav</foaf:name>
+    <foaf:title>Mr</foaf:title>
+    <foaf:givenname>Aditya</foaf:givenname>
+    <foaf:family_name>Yadav</foaf:family_name>
+    <foaf:nick>NetRoY</foaf:nick>
+    <foaf:mbox_sha1sum>6d92c956a218b9ee32948cc1776bc8536ed9e989</foaf:mbox_sha1sum>
+    
+    <foaf:homepage rdf:resource="http://netroy.in/"/>
+    <foaf:weblog rdf:resource="http://updates.netroy.in/"/>
+    <foaf:depiction rdf:resource="http://static.netroy.in/photos/profile.jpg"/>
+    <foaf:img rdf:resource="http://static.netroy.in/photos/formal.jpg"/>
+    <foaf:phone rdf:resource="tel:+13857430235"/>
+    <foaf:workplaceHomepage rdf:resource="http://iyottasoft.com/"/>
+    <foaf:workInfoHomepage rdf:resource="http://iyottasoft.com/team"/>
+    <foaf:schoolHomepage rdf:resource="http://mnnit.ac.in/"/>
+
+<!-- Accounts -->
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage dc:title="LinkedIn" rdf:resource="http://www.linkedin.com/"/>
+        <foaf:accountProfilePage rdf:resource="http://in.linkedin.com/in/netroy"/>
+        <foaf:accountName>netroy</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage dc:title="Twitter" rdf:resource="http://twitter.com/"/>
+        <foaf:accountProfilePage rdf:resource="http://twitter.com/netroy"/>
+        <foaf:accountName>netroy</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage dc:title="GitHub" rdf:resource="http://github.com/"/>
+        <foaf:accountProfilePage rdf:resource="http://github.com/netroy"/>
+        <foaf:accountName>netroy</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage dc:title="Launchpad" rdf:resource="http://launchpad.net/"/>
+        <foaf:accountProfilePage rdf:resource="https://launchpad.net/~netroy"/>
+        <foaf:accountName>netroy</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage dc:title="Google Reader" rdf:resource="http://www.google.com/reader"/>
+        <foaf:accountProfilePage rdf:resource="http://www.google.com/reader/shared/adi.yadav"/>
+        <foaf:accountName>adi.yadav</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage dc:title="Facebook" rdf:resource="http://facebook.com/"/>
+        <foaf:accountProfilePage rdf:resource="http://facebook.com/netroy"/>
+        <foaf:accountName>netroy</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage dc:title="Youtube" rdf:resource="http://youtube.com/"/>
+        <foaf:accountProfilePage rdf:resource="http://youtube.com/netroy"/>
+        <foaf:accountName>netroy</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+    <foaf:holdsAccount>
+      <foaf:OnlineAccount>
+        <foaf:accountServiceHomepage dc:title="Last.FM" rdf:resource="http://www.last.fm/"/>
+        <foaf:accountProfilePage rdf:resource="http://www.last.fm/user/NetRoY"/>
+        <foaf:accountName>netroy</foaf:accountName>
+      </foaf:OnlineAccount>
+    </foaf:holdsAccount>
+
+<!-- People I Know -->
+    <foaf:knows>
+      <foaf:Person rdf:ID="ecambria">
+        <foaf:name>Erik Cambria</foaf:name>
+        <foaf:mbox_sha1sum>56bf7d879cb8df1e52809f95b29c2d17de191f98</foaf:mbox_sha1sum>
+        <foaf:homepage rdf:resource="http://www.cs.stir.ac.uk/~eca/"/>
+        <rel:friendOf rdf:resource="#dustinfreeman"/>
+        <foaf:nick>erik</foaf:nick>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person rdf:ID="dustinfreeman">
+        <foaf:name>Dustin Freeman</foaf:name>
+        <foaf:mbox_sha1sum>47348861ee7ffc9f1559837db1ac7692a03eaeaa</foaf:mbox_sha1sum>
+        <foaf:homepage rdf:resource="http://www.dustinfreeman.org/"/>
+        <rel:friendOf rdf:resource="#ecambria"/>
+        <foaf:nick>dustin</foaf:nick>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person rdf:ID="tuxtoti">
+        <foaf:name>Harish Sundararaj</foaf:name>
+        <foaf:mbox_sha1sum>616eec66c54921cc3569168ea92535d619d40e5d</foaf:mbox_sha1sum>
+        <foaf:homepage rdf:resource="http://tuxtoti.com/blog"/>
+        <rel:friendOf rdf:resource="#balaji"/>
+        <rel:friendOf rdf:resource="#nadahalli"/>
+        <rel:friendOf rdf:resource="#jebu"/>
+        <foaf:nick>harish</foaf:nick>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person rdf:ID="balaji">
+        <foaf:name>Balaji Chitra Ganeshan</foaf:name>
+        <foaf:mbox_sha1sum>8fe2807a129aa1d76be4b3d21cd3f1a441ca24fd</foaf:mbox_sha1sum>
+        <foaf:homepage rdf:resource="http://www.cs.arizona.edu/~balaji/"/>
+        <rel:friendOf rdf:resource="#tuxtoti"/>
+        <rel:friendOf rdf:resource="#nadahalli"/>
+        <rel:friendOf rdf:resource="#jebu"/>
+        <foaf:nick>bala</foaf:nick>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person rdf:ID="nadahalli">
+        <foaf:name>Tejaswi Nadahalli</foaf:name>
+        <foaf:mbox_sha1sum>4916bd4a3de21a7cf8d89dce139fd48c4a85fb86</foaf:mbox_sha1sum>
+        <foaf:homepage rdf:resource="http://woolee.blogspot.com/"/>
+        <rel:friendOf rdf:resource="#tuxtoti"/>
+        <rel:friendOf rdf:resource="#balaji"/>
+        <foaf:nick>tejaswi</foaf:nick>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person rdf:ID="jebu">
+        <foaf:name>Jebu Ittiachen</foaf:name>
+        <foaf:mbox_sha1sum>cf609fb196069d263d28655d0d45be42a3d804dd</foaf:mbox_sha1sum>
+        <foaf:homepage rdf:resource="http://blog.jebu.net/"/>
+        <rel:friendOf rdf:resource="#tuxtoti"/>
+        <rel:friendOf rdf:resource="#balaji"/>
+        <foaf:nick>jebu</foaf:nick>
+      </foaf:Person>
+    </foaf:knows>
+    <foaf:knows>
+      <foaf:Person rdf:ID="shashikant">
+        <foaf:name>Shashi Kant Sharma</foaf:name>
+        <foaf:mbox_sha1sum>d3d4c02b577548911ab4afb255e09ac5e9451d0f</foaf:mbox_sha1sum>
+        <foaf:homepage rdf:resource="http://logs.shashikant.in/"/>
+        <foaf:nick>shashikant</foaf:nick>
+      </foaf:Person>
+    </foaf:knows>
+  </foaf:Person>
+
+<!-- interests -->
+  <foaf:interest>
+    <rdf:Description rdf:about="http://nodejs.org/">
+      <dc:title>Node.JS</dc:title>
+    </rdf:Description>
+  </foaf:interest>
+  <foaf:interest>
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/sw/">
+      <dc:title>Semantic Web</dc:title>
+    </rdf:Description> 
+  </foaf:interest>
+  <foaf:interest>
+    <rdf:Description rdf:about="http://smob.me/">
+      <dc:title>Semantic Microblogging Platform</dc:title>
+    </rdf:Description>
+  </foaf:interest>
+  
+<!-- digital signature for this file -->
+  <rdf:Description rdf:about="">
+    <wot:assurance rdf:resource="foaf.rdf.asc" />
+  </rdf:Description>
+</rdf:RDF>

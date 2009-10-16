@@ -1,0 +1,37 @@
+html,body{background-image:url('../images/pattern.png');background-color:#111;text-align:center;}
+a,a:visited,a:link{color:#0086B0;text-decoration:none;}
+
+#wrapper{width:500px;margin:0 auto;text-align:center;}
+#content{padding-top:30px;}
+#header{font-size: 48px;line-height:56px;margin:10px auto;color:#333;text-shadow: 0px 1px 0px #444;}
+#header b{color:#999;font-weight:normal;font-size:54px;line-height:60px;text-shadow:0px 1px 1px #444;}
+
+#tweets,#outerD{
+  background-color:#F0F0E0;border:1px solid #666;width:450px;margin:0 auto;
+  background-clip: padding-box;-moz-background-clip: padding-box;-webkit-background-clip: padding-box;
+  border-radius:6px;-moz-border-radius:6px;-webkit-border-radius:6px;
+  box-shadow: 0px 0px 3px #666;-webkit-box-shadow: 0px 0px 3px #666;-moz-box-shadow: 0px 0px 3px #666;-o-box-shadow: 0px 0px 5px #666;
+}
+
+#innerD{padding:10px;color:#FFF;font-family:georgia,sans;font-size:14px;line-height:18px;text-align:left;}
+#innerD img{padding:2px;margin-top:10px;border:1px solid #DDD;background-color:#FFF;}
+div.block{color: #222;text-shadow: #DDD 0px 1px 1px;padding:6px 4px;margin-bottom:4px; border-bottom: 1px dotted #CCC;}
+div.block a{font-weight:bold;font-style:italic;color:#222;}
+div.block a:hover, a:hover span{color:#A12800;}
+b.big{font-size:130%;font-weight:normal;}
+div.more i{color:#000;}
+div.links a{font-size:12px;color:#111;margin:0 2px;}
+div.last {border:0 none;}
+#innerD::selection , #innerD *::selection{background: #F5FF8A;color:#000;border-color:#000;}
+#innerD::-moz-selection , #innerD *::-moz-selection{background: #F5FF8A;color:#000;border-color:#000;}
+
+#tweets{background-color:#333;border-color:#555;margin-top:10px;padding:6px;line-height:18px;text-align:left;}
+#tweets span.text{padding:0 5px;font-size:12px;text-shadow: 0px 1px 1px #222;color:#EEE;display:block;}
+#tweets span.text a{color:#49BCF5;text-decoration:underline;}
+#tweets span.time{margin-left:15px;font-size:9px;color:#999;text-transform:uppercase;}
+#tweets span.user{color:#888;font-size:9px;padding:0 4px;}
+#tweets span.user a{color:#ffb;text-transform:uppercase;font-weight:bold;padding:0 4px;}
+
+#footer{font-size: 12px;color: #666;text-shadow: #222 0px 1px 0px;margin:20px auto;font-style:italic; margin-bottom:50px;}
+#footer b {color:#999;padding:0 6px;}
+#github{position: absolute; top: 0; left: 0; border: 0;}
