@@ -1,0 +1,10 @@
+{
+  "deploy": {
+    "branch": "gh-pages"
+  },
+  "site": {
+    "home": "home",
+    "title": "NetRoY",
+    "description": "Aditya is a Web Developer, a Geek, a Cook and a Traveller.\n And has a great passion for music and technology."
+  }
+}
