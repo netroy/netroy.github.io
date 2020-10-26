@@ -33,7 +33,7 @@ header {
 header:before {
   content: ' ';
   position: absolute;
-  background-image: url("KS.png");
+  background-image: url("kartoffelskript.png");
   width: 100px;
   height: 100px;
   background-size: 100px 100px;
