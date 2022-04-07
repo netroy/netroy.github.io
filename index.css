@@ -8,7 +8,7 @@ body {
   background-image: linear-gradient(rgba(184, 217, 255, 0.2) .05em, transparent .05em);
   background-image: -webkit-linear-gradient(rgba(184, 217, 255, 0.2) .05em, transparent .05em);
   background-size: 100% 2.21em;
-  font-family: 'Josefin Slab', serif;
+  font-family: serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
